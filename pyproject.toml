@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "todo-api"
+version = "0.1.0"
+description = "A Todo API using Django Rest Framework"
+authors = ["Nishant Sapkota <snishant306@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = "^3.13.1"
+Django = "^4.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
